@@ -226,6 +226,10 @@ console.log(runMe(3.14));
 //return result = 0.4967869747417249 ???
 **/
 
+/*
+
+//Binary search
+
 var primes = [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97];
 var doSearch = function binarySearch(arr){
 	//let cannot be redeclared, scoped to within {}
@@ -252,10 +256,53 @@ var target = 67;
 console.log("Found " + target + " at " + doSearch(primes));
 target = 10;
 console.log("Found " + target + " at " + doSearch(primes));
+*/
 
+/**/
 
+// Selection sort
+var swap = function(array, firstIndex, secondIndex) {
+    var temp = array[firstIndex];
+    array[firstIndex] = array[secondIndex];
+    array[secondIndex] = temp;
+};
 
+var indexOfMinimum = function(array, startIndex) {
 
+    var minValue = array[startIndex];
+    var minIndex = startIndex;
+
+    for(var i = minIndex + 1; i < array.length; i++) {
+        if(array[i] < minValue) {
+            minIndex = i;
+            minValue = array[i];
+        }
+    } 
+    return minIndex;
+}; 
+
+var selectionSort = function(array) {
+    var index;
+    for(var i = 0; i < array.length; i++){
+        index = indexOfMinimum(array, i);
+        swap(array, index, i);
+    }
+};
+
+var array = [22, 11, 99, 88, 9, 7, 42];
+console.log("Array before sorting:  " + array);
+selectionSort(array);
+console.log("Array after sorting:  " + array);
+//Selection sort runtime: 
+//(n+1) * (n/2)
+//or
+//((n^2) / 2) + (n/2)
+//e.g., if n = 8:
+// (8+1) * (8/2) = 9 * 4 = 36
+//or
+//((8^2) / 2) + (8/2) = (64/2) + 4 = 32 + 4 = 36 
+
+/**/
 
 
 
