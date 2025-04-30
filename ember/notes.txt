@@ -1,0 +1,101 @@
+1-
+npm install -g ember-cli
+npm warn deprecated inflight@1.0.6: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.
+npm warn deprecated source-map-url@0.4.1: See https://github.com/lydell/source-map-url#deprecated
+npm warn deprecated npmlog@6.0.2: This package is no longer supported.
+npm warn deprecated rimraf@2.7.1: Rimraf versions prior to v4 are no longer supported
+npm warn deprecated rimraf@2.7.1: Rimraf versions prior to v4 are no longer supported
+npm warn deprecated rimraf@2.7.1: Rimraf versions prior to v4 are no longer supported
+npm warn deprecated rimraf@2.7.1: Rimraf versions prior to v4 are no longer supported
+npm warn deprecated rimraf@2.7.1: Rimraf versions prior to v4 are no longer supported
+npm warn deprecated rimraf@2.7.1: Rimraf versions prior to v4 are no longer supported
+npm warn deprecated rimraf@2.7.1: Rimraf versions prior to v4 are no longer supported
+npm warn deprecated rimraf@2.7.1: Rimraf versions prior to v4 are no longer supported
+npm warn deprecated rimraf@2.7.1: Rimraf versions prior to v4 are no longer supported
+npm warn deprecated rimraf@2.7.1: Rimraf versions prior to v4 are no longer supported
+npm warn deprecated urix@0.1.0: Please see https://github.com/lydell/urix#deprecated
+npm warn deprecated rimraf@3.0.2: Rimraf versions prior to v4 are no longer supported
+npm warn deprecated resolve-url@0.2.1: https://github.com/lydell/resolve-url#deprecated
+npm warn deprecated are-we-there-yet@3.0.1: This package is no longer supported.
+npm warn deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported
+npm warn deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported
+npm warn deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported
+npm warn deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported
+npm warn deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported
+npm warn deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported
+npm warn deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported
+npm warn deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported
+npm warn deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported
+npm warn deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported
+npm warn deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported
+npm warn deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported
+npm warn deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported
+npm warn deprecated source-map-resolve@0.5.3: See https://github.com/lydell/source-map-resolve#deprecated
+npm warn deprecated source-map-url@0.3.0: See https://github.com/lydell/source-map-url#deprecated
+npm warn deprecated lodash.omit@4.5.0: This package is deprecated. Use destructuring assignment syntax instead.
+npm warn deprecated glob@5.0.15: Glob versions prior to v9 are no longer supported
+npm warn deprecated rimraf@2.6.3: Rimraf versions prior to v4 are no longer supported
+npm warn deprecated glob@8.1.0: Glob versions prior to v9 are no longer supported
+npm warn deprecated gauge@4.0.4: This package is no longer supported.
+npm warn deprecated consolidate@0.16.0: Please upgrade to consolidate v1.0.0+ as it has been modernized with several long-awaited fixes implemented. Maintenance is supported by Forward Email at https://forwardemail.net ; follow/watch https://github.com/ladjs/consolidate for updates and release changelog
+npm warn deprecated sane@4.1.0: some dependency vulnerabilities fixed, support for node < 10 dropped, and newer ECMAScript syntax/features added
+
+added 910 packages in 24s
+
+2-
+https://guides.emberjs.com/release/getting-started/quick-start/
+ember new ember-quickstart --lang en
+installing app
+Ember CLI v6.3.1
+
+✨  Creating a new Ember app in /Users/dstrube/Projects/pg_js/ember/ember-quickstart:
+  create .editorconfig
+  create .ember-cli
+  create .github/workflows/ci.yml
+  create .prettierignore
+  create .prettierrc.js
+  create .stylelintignore
+  create .stylelintrc.js
+  create .template-lintrc.js
+  create .watchmanconfig
+  create README.md
+  create /Users/dstrube/Projects/pg_js/ember/ember-quickstart/eslint.config.mjs
+  create app/app.js
+  create app/components/.gitkeep
+  create app/controllers/.gitkeep
+  create app/deprecation-workflow.js
+  create app/helpers/.gitkeep
+  create app/index.html
+  create app/models/.gitkeep
+  create app/router.js
+  create app/routes/.gitkeep
+  create app/styles/app.css
+  create app/templates/application.hbs
+  create config/ember-cli-update.json
+  create config/environment.js
+  create config/optional-features.json
+  create config/targets.js
+  create ember-cli-build.js
+  create .gitignore
+  create package.json
+  create public/robots.txt
+  create testem.js
+  create tests/helpers/index.js
+  create tests/index.html
+  create tests/integration/.gitkeep
+  create tests/test-helper.js
+  create tests/unit/.gitkeep
+
+🚧  Installing packages... This might take a couple of minutes.
+npm: Installed dependencies
+
+🎥  Initializing git repository.
+Git: successfully initialized.
+
+🎉  Successfully created project ember-quickstart.
+👉  Get started by typing:
+
+  $ cd ember-quickstart
+  $ npm start
+
+Happy coding!
