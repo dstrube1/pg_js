@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+<!--  
+from 
+https://www.w3schools.com/angular/default.asp
+-->
+<body>
+
+<div ng-app="" ng-init="firstName='John'" > <!--ng-controller="myCtrl" -->
+<!--
+	this (ng-controller="myCtrl") throws an error:
+	Error: [$controller:ctrlreg] 
+-->
+  <p>Name : <input type="text" ng-model="name"></p>
+  <h1>Hello {{name}}</h1>
+<!-- 
+</div>
+-->
+
+<!-- 
+AngularJS extends HTML with ng-directives.
+
+The ng-app directive defines an AngularJS application.
+
+The ng-model directive binds the value of HTML controls (input, select, textarea) to application data.
+
+The ng-bind directive binds application data to the HTML view.
+-->
+
+<!-- 
+<div ng-app="">
+-->
+  <p>Name: <input type="text" ng-model="name1"></p>
+  <p ng-bind="name1"></p>
+  
+  <p>The name of this span is <span ng-bind="firstName"></span></p>
+
+	<p>My first expression: {{ 5 + 5 }}</p>
+	
+	<!-- 
+	First Name: <input type="text" ng-model="firstName"><br>
+	Last Name: <input type="text" ng-model="lastName"><br>
+	<br>
+	Full Name: {{firstName + " " + lastName}}
+	-->
+</div>
+
+<script>
+	var app = angular.module('myApp', []);
+	app.controller('myCtrl', function($scope) {
+	  $scope.firstName= "John";
+	  $scope.lastName= "Doe";
+	});
+</script>
+
+</body>
+</html>
