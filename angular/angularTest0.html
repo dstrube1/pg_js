@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+<!--  
+from 
+https://www.w3schools.com/angular/angular_intro.asp
+
+This failed in angularTest.html.
+Must put ng-controller in a place different from (???)
+-->
+<body>
+<div ng-app="myApp" ng-controller="myCtrl">
+
+First Name: <input type="text" ng-model="firstName"><br>
+Last Name: <input type="text" ng-model="lastName"><br>
+<br>
+Full Name: {{firstName + " " + lastName}}
+
+</div>
+
+<script>
+
+//AngularJS Module
+var app = angular.module('myApp', []);
+
+//AngularJS Controller
+app.controller('myCtrl', function($scope) {
+  $scope.firstName= "John";
+  $scope.lastName= "Doe";
+});
+</script>
+</body>
+</html>
