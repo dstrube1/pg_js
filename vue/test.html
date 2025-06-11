@@ -1,0 +1,42 @@
+<html>
+<head>
+<title>Title</title>
+<!--
+Starting here:
+https://www.w3schools.com/vue/vue_intro.php
+
+Options API and Composition API differences:
+https://www.w3schools.com/vue/vue_composition-api.php
+
+I'm old school / used to putting script tags in the head...
+-->
+<script src="https://unpkg.com/vue@3/dist/vue.global.js"> </script>
+
+</head>
+<body>
+
+<div id="app"> 
+{{ message }} <br/>
+{{'Random number: ' + Math.ceil(Math.random()*6) }}
+</div>
+
+<!-- 
+Leaving the script src tag in the head is fine, 
+but if this script tag is left in the head, then the vue js doesn't work right
+-->
+<script>
+  const app = Vue.createApp({
+    data() {
+      return {
+        message: "Hello World!"
+      }
+    }
+  })
+
+ app.mount('#app')
+</script>
+
+<!--
+LEFTOFF: https://www.w3schools.com/vue/vue_directives.php
+-->
+</body>
