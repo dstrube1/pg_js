@@ -8,6 +8,13 @@ https://www.w3schools.com/react/default.asp
 to create a React application named my-react-app:
 npx create-react-app my-react-app
 
+(
+If you've previously installed create-react-app globally some unknown time ago, 
+then uninstall the package to ensure npx always uses the latest version of create-react-app.
+To uninstall, run this command: 
+npm uninstall -g create-react-app
+)
+
 Run the React Application:
 cd my-react-app
 npm start
@@ -29,14 +36,14 @@ To write React directly in html, start by including three scripts:
     <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
     <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
   </head>
-<!-->
+<!--
 the first two let us write React code in our JavaScripts, 
 and the third, Babel, allows us to write JSX syntax and ES6 in older browsers.
 
 OK for testing purposes, but for production: set up a React environment
 
 Leftoff:
-https://www.w3schools.com/react/react_getstarted.asp
+https://www.w3schools.com/react/react_es6_classes.asp
 -->
 <body>
 
