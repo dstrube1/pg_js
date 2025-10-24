@@ -2,8 +2,10 @@
 <meta charset="UTF-8">
 <head>
 <script>
-document.write("blah");
+document.write("blah<br>");
 //alert("foo");
+
+document.write("writing with a loop: <br>");
 for (var i = 0; i < 10; i++) {
         document.write(i + "<br>");
 }
@@ -20,40 +22,40 @@ document.write("undefined = " + foo0 + "<br>");
 document.write("8 == \"8\" = " + (8 == "8") + "<br>");
 document.write("===========================================================================" + "<br>");
 document.write("\"" + "<br>");
-document.write("null == undefined = " + (null == undefined )
+document.write("null == undefined : " + (null == undefined )
 //null == undefined  //true
  + "<br>");
  
- document.write("false == undefined = " + (false == undefined) 
+ document.write("false == undefined : " + (false == undefined) 
 //false == undefined //false
  + "<br>");
  
- document.write("true == undefined = " + (true == undefined) 
+ document.write("true == undefined : " + (true == undefined) 
 //true == undefined //false
  + "<br>");
  
-document.write("false == \"false\" = " + (false == "false") 
+document.write("false == \"false\" : " + (false == "false") 
 //false == "false"   //false
  + "<br>");
 
-document.write("'' == '0' = " + ('' == '0') 
+document.write("'' == '0' : " + ('' == '0') 
 //'' == '0'          //false
  + "<br>");
  
-document.write("'' == 0 = " + ('' == 0) 
+document.write("'' == 0 : " + ('' == 0) 
 //'' == 0          //true
  + "<br>");
  
-document.write("0 == '' = " + (0 == '') 
+document.write("0 == '' : " + (0 == '') 
 //0 == ''            //true
  + "<br>");
  
-document.write("0 == '0'  = " + (0 == '0' ) 
+document.write("0 == '0'  : " + (0 == '0' ) 
 //0 == '0' 
  + "<br>");
 //document.write(nonspecialthing + "<br>");
-document.write("0.1 + 0.2 == 0.3 = " + (0.1 + 0.2 == 0.3) + "<br>");
-document.write("0.1 + 0.2 = " + (0.1 + 0.2) + "<br>")
+document.write("0.1 + 0.2 == 0.3 : " + (0.1 + 0.2 == 0.3) + "<br>");
+document.write("0.1 + 0.2 : " + (0.1 + 0.2) + "<br>")
 
 document.write("===========================================================================" + "<br>");
 
